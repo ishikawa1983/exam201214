@@ -17,9 +17,9 @@ public class Main {
 		// バインダーの各ファイルのどの位置か（0～2n-1までの値）
 		int index = (m - 1) % (n * 2);
 		// 裏側の名刺の位置
-		int backSideIndex = n * 2 - index;
+		int backSideIndex = (n * 2 - 1) - index;
 		// 当該ファイル直前の名刺番号
-		int offset = m - index - 1;
+		int offset = m - index;
 
 		System.out.println(offset + backSideIndex);
 	}
