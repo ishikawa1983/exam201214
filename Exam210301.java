@@ -25,6 +25,8 @@ public class Main {
 					if (displayCount >= additionNum) {
 						break;
 					}
+				} else {
+					break;
 				}
 			}
 			if (displayCount >= additionNum) {
@@ -41,6 +43,8 @@ public class Main {
 					if (displayCount >= subtractionNum) {
 						break;
 					}
+				} else {
+					break;
 				}
 			}
 			if (displayCount >= subtractionNum) {
