@@ -4,8 +4,8 @@ import java.util.*;
 
 public class Main {
 	public static void main(String[] args) {
-		// Ž©•ª‚Ì“¾ˆÓ‚ÈŒ¾Œê‚Å
-		// Let's ƒ`ƒƒƒŒƒ“ƒWII
+		// è‡ªåˆ†ã®å¾—æ„ãªè¨€èªžã§
+		// Let's ãƒãƒ£ãƒ¬ãƒ³ã‚¸ï¼ï¼
 
 		Scanner sc = new Scanner(System.in);
 		String line = sc.nextLine();
@@ -35,7 +35,7 @@ public class Main {
 		displayCount = 0;
 		for (int i = limitNum; i >= 0; i--) {
 			for (int j = 0; j < limitNum; j++) {
-				if (i - j <= limitNum) {
+				if (i - j >= 0) {
 					System.out.println(i + " - " + j + " =");
 					displayCount++;
 					if (displayCount >= subtractionNum) {
