@@ -17,8 +17,8 @@ public class Main {
 		final Integer limitNum = 99;
 
 		Integer displayCount = 0;
-		for (int i = 0; i < limitNum; i++) {
-			for (int j = 0; j < limitNum; j++) {
+		for (int i = 0; i <= limitNum; i++) {
+			for (int j = 0; j <= limitNum; j++) {
 				if (i + j <= limitNum) {
 					System.out.println(i + " + " + j + " =");
 					displayCount++;
@@ -34,7 +34,7 @@ public class Main {
 
 		displayCount = 0;
 		for (int i = limitNum; i >= 0; i--) {
-			for (int j = 0; j < limitNum; j++) {
+			for (int j = 0; j <= limitNum; j++) {
 				if (i - j >= 0) {
 					System.out.println(i + " - " + j + " =");
 					displayCount++;
